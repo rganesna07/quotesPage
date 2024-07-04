@@ -1,1 +1,1 @@
-# quotesPage
+This project is a simple web application that allows users to view, add, and manage quotes by category. It uses Node.js, Express.js, and Handlebars for server-side rendering, with vanilla JavaScript, HTML, and CSS for client-side interactions. The application features a modal form for adding new quotes and automatically refreshes the page to display the latest quotes.
