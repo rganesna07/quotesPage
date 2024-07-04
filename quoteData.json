@@ -1,0 +1,130 @@
+{
+  "wisdom": {
+    "category": "Wisdom",
+    "quote_list": [
+      {
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      },
+      {
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela"
+      },
+      {
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      },
+      {
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      },
+      {
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela"
+      },
+      {
+        "quote": "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+        "author": "Albert Einstein"
+      },
+      {
+        "quote": "The journey of a thousand miles begins with one step.",
+        "author": "Lao Tzu"
+      },
+      {
+        "quote": "In the end, it's not the years in your life that count. It's the life in your years.",
+        "author": "Abraham Lincoln"
+      },
+      {
+        "quote": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon"
+      },
+      {
+        "quote": "aaqaahh",
+        "author": "irhtika"
+      },
+      {
+        "quote": "edwe",
+        "author": "wedwed"
+      },
+      {
+        "quote": "hello",
+        "author": "me"
+      }
+    ]
+  },
+  "motivation": {
+    "category": "Motivation",
+    "quote_list": [
+      {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "quote": "In the middle of difficulty lies opportunity.",
+        "author": "Albert Einstein"
+      },
+      {
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      }
+    ]
+  },
+  "love": {
+    "category": "Love",
+    "quote_list": [
+      {
+        "quote": "Love is composed of a single soul inhabiting two bodies.",
+        "author": "Aristotle"
+      },
+      {
+        "quote": "The best thing to hold onto in life is each other.",
+        "author": "Audrey Hepburn"
+      },
+      {
+        "quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+        "author": "Lao Tzu"
+      },
+      {
+        "quote": "Where there is love there is life.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "quote": "Love isn't something you find. Love is something that finds you.",
+        "author": "Loretta Young"
+      },
+      {
+        "quote": "Love all, trust a few, do wrong to none.",
+        "author": "William Shakespeare"
+      }
+    ]
+  },
+  "humor": {
+    "category": "Humor",
+    "quote_list": [
+      {
+        "quote": "I'm a wild and crazy guy ---- ",
+        "author": "Steve Martin"
+      }
+    ]
+  }
+}

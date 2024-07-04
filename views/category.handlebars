@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{category}} Quotes</title>
+
+</head>
+<body>
+    <header>
+        <h1>{{category}} Quotes</h1>
+    </header>
+
+    <main>
+        <ul id="quote-list">
+            {{#each quotes}}
+                <li class="quote-container">{{quote}} - <em>{{author}}</em></li>
+            {{/each}}
+        </ul>
+
+        <button id="add-quote-button"> <i id = "addfafa" class = "fa fa-address-card"> </i>Add Quote</button>
+
+        <div id="add-quote-modal" class="hidden">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h3>Post a Quote</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="quote-input-element">
+                        <label for="quote-input">Quote</label>
+                        <input type="text" id="quote-input">
+                    </div>
+                    <div class="author-input-element">
+                        <label for="author-input">Author</label>
+                        <input type="text" id="author-input">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+                    <button type="button" id="modal-accept" class="action-button">Create Post</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('add-quote-button').addEventListener('click', () => {
+            document.getElementById('add-quote-modal').classList.remove('hidden');
+        });
+
+        document.getElementById('modal-cancel').addEventListener('click', () => {
+            document.getElementById('add-quote-modal').classList.add('hidden');
+        });
+
+        document.getElementById('modal-accept').addEventListener('click', () => {
+            const quote = document.getElementById('quote-input').value;
+            const author = document.getElementById('author-input').value;
+            const category = '{{category}}'.toLowerCase();
+
+            if (quote && author) {
+                fetch(`/addQuote/${category}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ quote, author })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const quoteList = document.getElementById('quote-list');
+                    quoteList.innerHTML = '';
+                    data.quotes.forEach(q => {
+                        const li = document.createElement('li');
+                        li.innerText = `${q.quote} - ${q.author}`;
+                        quoteList.appendChild(li);
+                    });
+                    document.getElementById('add-quote-modal').classList.add('hidden');
+                     window.location.reload();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            } else {
+                alert('Both quote and author are required.');
+            }
+        });
+    </script>
+</body>
+</html>

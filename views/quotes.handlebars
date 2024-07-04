@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes</title>
+</head>
+<body>
+    <header>
+        <h2 id = "quotesTitle">Quotes</h2>
+    </header>
+    <main>
+        <h3 id = "ctg"> Categories</h3>
+        <ul>
+            {{#each categories}}
+                <li><a href="/quotes/{{this}}">{{this}}</a></li>
+            {{/each}}
+        </ul>
+    </main>
+</body>
+</html>
+

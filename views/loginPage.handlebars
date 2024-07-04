@@ -1,0 +1,18 @@
+<main class="loginPage">
+  <div class="titleContainer"> 
+    <h2>Login</h2>
+  </div>
+  <form  action="/loginInfo" method="POST">
+    <div>
+      <label>Username:</label>
+      <input type="text" id="usernameInput" name="username" required>
+      <br><br>
+      <label>Password:</label>
+      <input type="text" id="passwordInput" name="password" required>
+    </div>
+
+      <p id="invalidMsg" style="color:red;">{{error}}</p>
+
+    <button id="logimbtn" type="submit">Login</button>
+  </form>
+</main>

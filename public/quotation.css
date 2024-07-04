@@ -1,0 +1,145 @@
+h1{
+    color: #ffcbcb; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #132743; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #cedcec;
+}
+
+#ctg{
+    color:  #132743; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    text-align: left;
+} 
+
+#quotesTitle{
+    color: #ffcbcb; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #132743; 
+    border-radius: 5px;
+    text-align: center; 
+}
+
+#Welcome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#3d5474;
+}
+
+#add-quote-button{
+    border-radius: 10px;
+    background-color: pink;
+}
+
+#addfafa{
+    color: #3d5474;  
+    text-align: center; 
+}
+#homefafa{
+    font-size: 300px;
+    color: pink;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    display: flex; 
+}
+
+
+#quote-list{
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+.quote-container {
+    border: 1px solid teal; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    background-color: #ffcbcb; 
+    text-align: center;
+    color: navy;
+}
+
+
+.loginPage {
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+form {
+    background-color: pink; 
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 10px;
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Add margin below labels */
+}
+
+.titleContainer {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add margin */
+}
+
+ul li {
+    margin-right: 20px; 
+}
+
+ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+.hidden {
+    display: none;
+}
+.modal-dialog {
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+.modal-header, .modal-body, .modal-footer {
+    margin: 10px 0;
+}
+.action-button {
+    margin: 5px;
+}
+
+footer{
+    background-color: #132743;
+    border-radius: 10px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#logimbtn{
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(78, 71, 118);
+    
+}
+
+#hmPgHeader{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#3d5474;
+    text-align: center;
+}
+
+.navlist {
+    list-style-type: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

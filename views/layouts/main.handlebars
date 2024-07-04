@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rithika Ganesna</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/quotation.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    {{!-- <script src="/quotation.js" charset="utf-8" defer></script>
+    <script src="/server.js" charset="utf-8" defer></script> --}}
+  </head>
+  <body>
+
+    <header>
+      <h1 class="site-title">Quotebook</h1>
+       {{#if username}}
+       <h2 id= "Welcome">Welcome {{username}}!</h2>
+       {{/if}}
+    </header>
+
+    <nav class="navbar">
+      <ul class="navlist">
+        <li class="navitem"><a href="/">Home</a></li>
+        <li class="navitem"><a href="/quotes">Quotes</a></li>
+      {{#if username}}
+          <li><a href="/logout">Log Out</a></li>
+      {{else}}
+          <li><a href="/loginPage">Log In</a></li>
+      {{/if}}
+      </ul>
+    </nav>
+
+    {{{body}}}
+
+     {{>footer}}
+  </body>
+</html>
