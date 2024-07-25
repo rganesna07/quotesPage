@@ -22,7 +22,7 @@ This project is a simple web application that allows users to view, add, and man
 Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
-   git clone https://github.com/rganesna07/quotes-collection.git
+   git clone https://github.com/rganesna07/quotes-collection.git](https://github.com/rganesna07/quotesPage.git)
    cd quotes-collection
 
 2. Install dependencies:
