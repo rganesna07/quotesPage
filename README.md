@@ -32,6 +32,13 @@ Follow these steps to set up and run the project locally:
    npm start
 
 4. Open your browser and navigate to 'http://localhost:4000'
+5.  log in using these credentials:
+{
+    "kittie": {"password":"meow"},
+    "doggie" : {"password":"bark"},
+    "goatie" : {"password":"baaaa"},
+    "willy" : {"password": "abc123"}
+  }
 
 ## Usage
 
